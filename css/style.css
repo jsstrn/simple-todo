@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  font-family: Helvetica, Arial, sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+
+}
+input {
+  width: 40vw;
+  height: 5vh;
+}
+button {
+  background-color: lightblue;
+  border: none;
+  width: 5vh;
+  height: 5vh;
+}
+button:hover {
+  background-color: skyblue;
+}
+li {
+  width: 50vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
